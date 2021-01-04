@@ -1,0 +1,44 @@
+html,body
+{
+	height: 100%;
+}
+#logout
+{
+  color: white;
+}
+
+#cart_count
+{
+	text-align: center;
+	padding: 0 0.9rem 0.1rem 0.9rem;
+	border-radius: 3rem;
+}
+
+.shopping-cart
+{
+	padding: 3% 0;
+}
+
+.cart-items + .cart_items
+{
+	padding: 2% 0;
+}
+
+.price-details h6
+{
+	padding: 3% 2%;
+}
+img
+{
+  height: 50px;
+  width: 50px;
+}
+.card
+{
+	margin-top: 5%;
+}
+.card-body img
+{
+	height: 10rem;
+	width: 10rem;
+}

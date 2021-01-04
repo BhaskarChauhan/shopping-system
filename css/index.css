@@ -1,0 +1,88 @@
+html,body
+{
+	height: 100%;
+}
+#logout
+{
+  color: white;
+}
+
+@media screen and (max-height: 450px)
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#cart_count
+{
+	text-align: center;
+	padding: 0 0.9rem 0.1rem 0.9rem;
+	border-radius: 3rem;
+}
+.carousel-item img
+{
+  height: 25rem;
+}
+
+img
+{
+  height: 50px;
+  width: 50px;
+}
+.card
+{
+  height: 23rem;
+  width: 12rem;
+}
+.card img
+{
+  height: 12rem;
+  width: 12rem;
+}
+.card-footer
+{
+  height: 10rem;
+}
+#navico
+{
+  color: white;
+  margin-right:20px;
+}
+
+.dropdown button
+{
+  font-size: 20px;
+  color: #4863A0;
+  display: block;
+}
+.main
+{
+  display: flex;
+}
+.left, .center, .right
+{
+  margin-top: 30px;
+}
+.center
+{
+  flex: 1;
+  text-align: center;
+}
+.right
+{
+  position: absolute;
+  right: 10%;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../img/assects/parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
